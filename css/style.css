@@ -1,0 +1,275 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+.carsellers-category-list{
+ width : 100% !imprtant;   
+}
+.hero-unit {
+    margin-top: -70px;
+  position: relative;
+  height: 70px;
+  background: #000;
+  opacity: 0.8;
+  border-radius: 0px 0px 4px 4px;
+    padding-top: 10px;
+
+}
+
+#wp-advanced-search-widget{
+    float: left;
+    width: 100%;
+}
+.hero-unit a,.hero-unit .pcd-price {
+   color:#fff;
+}
+.slider-selection {
+	background: #f0ad4e !important;
+}
+.slider.slider-horizontal{
+	width: 130px !important;
+}
+.carseller_heading_title{
+    border-bottom: solid 1px #ccc;
+    width: 94%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.car_seller_search_title{
+    width: 94%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.widget-text.category_list_widget_carseller_box > h2{
+    float:left;
+    width:100%;
+}
+.btn.check_availability:hover{
+   color: #fff !important;
+  background: #449d44 !important;
+  border-color: #398439 !important;
+}
+
+
+.btn-warning.view_details:hover{
+   color: #fff !important;
+  background: #ec971f !important;
+  border-color: #d58512 !important;
+}
+.wp-advanced-search #singlebutton:hover,.wp-advanced-search-widget  #singlebutton:hover{
+   color: #fff !important;
+  background: #3071a9!important;
+  border-color: #285e8e !important; 
+}
+
+#send_request .btn{padding: 5px
+}
+#send_request .btn:hover{
+   color: #fff !important;
+  background: #449d44 !important;
+  border-color: #398439 !important;
+  
+}
+
+.content-area.carsellers-category-list {
+    margin: 0px;
+}
+
+.single-carsellers #myCarousel .carousel-control{
+    display: none;
+}
+.carseller_section{
+  max-width: 320px;
+  padding: 4px;
+       padding-left: 5px !important;
+    padding-right: 5px !important;
+
+}
+.carseller-view-button .check_availability{
+   
+    padding: 6px 2px;
+}
+.content-area{
+  margin: 10px;
+}
+.carseller_title a{
+  text-decoration: none;
+}
+.carseller-view-button .btn-group {
+  padding:4px 0px; 
+}
+.carseller-view-button .btn-group a {
+  /*padding:4px 6px; */
+}
+.carseller_image img{
+  width: 320px; height: 206px;
+}
+#wp-advanced-search{
+  padding: 5px 22px;
+}
+
+.single-carsellers .container{
+      padding-top: 20px;
+
+}
+.carseller-title{
+    padding: 0px;
+    overflow: hidden
+}
+
+.carseller-title > h1 {
+    text-transform: capitalize;
+    border-bottom: 1px solid #ff5c33;
+    font-size: 30px;
+        margin-top: 0px;
+}
+.chk-availability  button{
+  background-color: #ff5c33  !important;
+  border: none;
+}
+.col-md-4.panel{
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    border: solid 1px #ff5c33;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 100% !important;
+}
+
+#vehicle_discription li a {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #b7bbbd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 3px;
+}
+#vehicle_discription{
+  background: none;
+  margin-top: 5px;
+}
+.tab-content p{
+  font-size: 14px !important;
+}
+#progression-specs .spec-label{
+  font-weight: bold;
+}
+.chk-availability-location{
+  margin-top: 10px;
+}
+#vehicle_discription li a:hover, #vehicle_discription li.active a{
+  border-radius: 6px;
+  background: #ff5c33;
+  text-decoration: none;
+}
+.nav-tabs {
+    border-bottom: 0 !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.modal{
+    z-index: 10000 !important;
+    
+}
+.modal-open{
+   overflow: hidden !important; 
+   padding: 0px !important;
+}
+ .modal-open .modal{
+   /*overflow: hidden !important;*/ 
+   /*top:22px;*/
+   padding-top:22px;
+}
+.modal-backdrop{
+    /*z-index: 1000000 !important;*/
+}
+.modal-dialog{
+    z-index: 1000000 !important;
+}
+.modal-body {
+    border-radius: 0 0 3px 3px;}
+#element {
+    /*background-image: url("../images/loading-1.gif");*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-size: 126px auto;
+        z-index: 100000;
+          display:none;
+}    
+#send_request{
+    width: 100%;
+    margin: 0px;
+    max-width: 600px;
+    min-width: 320px;
+}    
+
+.category_latest_post{
+    background: #eee;
+    padding: 10px 0 !important;
+}
+.category_latest_post .realty_widget li.car-latest-section{
+  
+    list-style: outside none none;
+    margin-top: 3px !important;
+    margin-bottom: 4px !important;
+}
+
+.category_latest_post .realty_widget li.car-latest-section .view_details{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+@media (max-width: 966px) {
+  .carseller_section{
+    float: left;
+
+  }
+}
+@media (max-width: 350px) {
+  .carseller_section{
+    width: auto;
+    max-width: auto !important;
+    padding: 0px;
+    float: none;
+
+  }
+  .carousel-indicators > li{
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 980px) {
+
+.carseller_section{
+    width: auto;
+    max-width: 276px;
+    padding: 16px;
+    float: left;
+
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+
+    .wp-advanced-search {
+        width: 20% !important;
+         padding: 0 10px !important;
+    }
+}
