@@ -4,7 +4,8 @@ class category_list_widget_carseller extends WP_Widget {
 
 	// constructor
 	function category_list_widget_carseller() {
-		parent::WP_Widget(false, $name = __('carseller Category list', 'category_list_widget_carseller') );
+//		parent::WP_Widget(false, $name = __('carseller Category list', 'category_list_widget_carseller') );
+                parent::__construct(false, $name = __('Carseller Category list', 'category_list_widget_carseller') );
 	}
 
 	// widget form creation
@@ -156,7 +157,8 @@ class carseller_search_form extends WP_Widget {
 
 	// constructor
 	function carseller_search_form() {
-		parent::WP_Widget(false, $name = __('CarSeller Search Form', 'carseller_search_form') );
+//		parent::WP_Widget(false, $name = __('CarSeller Search Form', 'carseller_search_form') );
+                 parent::__construct(false, $name = __('CarSeller Search Form', 'carseller_search_form') );
 	}
 
 	// widget form creation
@@ -257,7 +259,7 @@ wp_enqueue_script('bootstrap-slider-js', plugins_url('js/bootstrap-slider.js', _
 
                         <div class="col-md-12">
                             <label  class=" strong"> <b> Title</b> </label>
-                            <input id="vichleTitle" name="vt" type="text" placeholder="Please enter vichle title" class="form-control input-md" value="">
+                            <input id="vichleTitle" name="vt" type="text" placeholder="Please enter vehicle title" class="form-control input-md" value="">
                         </div>
 
                     </div>
@@ -307,7 +309,7 @@ wp_enqueue_script('bootstrap-slider-js', plugins_url('js/bootstrap-slider.js', _
 
                         <div class="col-md-12 ">
                             <label  class="strong"> <b> Model</b> </label>
-                            <input id="vichleModel" name="md" type="text" placeholder="Please enter vichle model" class="form-control input-md" value="<?php echo $vichleModel ?>">
+                            <input id="vichleModel" name="md" type="text" placeholder="Please enter vehicle model" class="form-control input-md" value="<?php echo $vichleModel ?>">
                             <input type="hidden" name="se" value="1">
                         </div>
 
@@ -374,7 +376,8 @@ class carseller_latest_post extends WP_Widget {
 
 	// constructor
 	function carseller_latest_post() {
-		parent::WP_Widget( false, $name = __( 'CarSeller Latest Post', 'carseller_latest_post' ) );
+//		parent::WP_Widget( false, $name = __( 'CarSeller Latest Post', 'carseller_latest_post' ) );
+                parent::__construct(false, $name = __('CarSeller Latest Post', 'carseller_latest_post') );
 	}
 
 	// widget form creation

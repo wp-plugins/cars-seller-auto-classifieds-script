@@ -1,19 +1,6 @@
 <?php
 
 
-$carsellers_box = array(
-    'id' => 'carsellers-box',
-    'title' => '<h1>carseller feather options</h1>',
-    'page' => 'carsellers',
-    'context' => 'normal',
-    'priority' => 'high',
-    'fields' => $fields
-);
-
-
-
-
-
 require_once("meta-box-class/my-meta-box-class.php");
 
 

@@ -3,8 +3,8 @@ Contributors: arunkushwaha87
 Donate link: http://www.supportlive24x7.com/index.php/pay-now?secure_payment=VWoxZzJWYnM0NVR2dzZtQ2xFakxYQT09
 Tags: Car, Car Sale, Car Seller, Car Dealer, Auto car, Auto Classifieds Script, Bootstrap, Responsive 
 Requires at least: 3.0.1
-Tested up to: 4.2.4
-Stable tag: 2.0.0
+Tested up to: 4.3.1
+Stable tag: 2.1.0
 License: Apache License v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 

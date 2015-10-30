@@ -82,7 +82,7 @@ wp_enqueue_script('bootstrap-slider-js', plugins_url('js/bootstrap-slider.js', _
 
                         <div class="col-md-12">
                             <label  class=" strong"> <b> Title</b> </label>
-                            <input id="vichleTitle" name="vt" type="text" placeholder="Please enter vichle title" class="form-control input-md" value="<?php echo $vichleTitle ?>">
+                            <input id="vichleTitle" name="vt" type="text" placeholder="Please enter vehicle title" class="form-control input-md" value="<?php echo $vichleTitle ?>">
                         </div>
 
                     </div>
@@ -154,7 +154,7 @@ echo '<span style="font-size:12px">' . $currency_symbol['symbol'] . '100000</spa
 
                         <div class="col-md-12 ">
                             <label  class="strong"> <b> Model</b> </label>
-                            <input id="vichleModel" name="md" type="text" placeholder="Please enter vichle model" class="form-control input-md" value="<?php echo $vichleModel ?>">
+                            <input id="vichleModel" name="md" type="text" placeholder="Please enter vehicle model" class="form-control input-md" value="<?php echo $vichleModel ?>">
                             <input type="hidden" name="se" value="1">
                         </div>
 

@@ -88,18 +88,22 @@ function baw_settings_page() {
 add_action( 'admin_init', 'get_currency_symbol' );
 function get_currency_symbol()
 {
-   $currency=array('US Dollar'=>array('symbol'=>'$','suffix'=>'USD'),
+    $currency_symbol='';
+   $currency=array(     'US Dollar'=>array('symbol'=>'$','suffix'=>'USD'),
                         'British Pound'=>array('symbol'=>'£','suffix'=>'GBP'),
                         'Euro'=>array('symbol'=>'€','suffix'=>'EUR'),
                         'Rupees'=>array('symbol'=>'₹','suffix'=>'INR'),
                         );
-$currency_code=esc_attr( get_option('currency_code') );
-   foreach ($currency as $key => $value) {
-    if($currency_code==$value["suffix"])
-    {
-      $currency_symbol=array('suffix'=>$value["suffix"], 'symbol'=>$value["symbol"],'name'=>$key);
+    $currency_code=esc_attr( get_option('currency_code') );
+    foreach ($currency as $key => $value) {
+     if($currency_code==$value["suffix"])
+     {
+       $currency_symbol=array('suffix'=>$value["suffix"], 'symbol'=>$value["symbol"],'name'=>$key);
+     }
     }
-   }
+    if(empty($currency_symbol)){
+        $currency_symbol=array('suffix'=>'USD', 'symbol'=>'$','name'=>'US Dollar');
+    }
    return $currency_symbol;
 
 }
